@@ -1,0 +1,148 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #504e4e70;
+}
+
+.box-container{
+  width: 100%;
+  height: 100%;
+}
+
+.box-izquierdo{
+  width: 49%;
+  height: 800px;
+  float: left;
+
+}
+
+.box-img{
+  width: 4%;
+  height: 11%;
+  margin-top: 50px;
+  margin-left: 120px;
+  padding-top: 5px;
+  padding: 0px;
+  position:fixed;
+  float: left;
+}
+
+.box-titulo{
+  width: 30%;
+  text-align: center;
+  margin-top: 0px;
+  margin-right: 300px;
+  font-size: 36px;
+  float: right;
+}
+
+.box-textarea{
+  margin-top: 0px;
+  margin-left: 150px;
+}
+
+#textarea1 { 
+  border: none;
+  outline: none;
+}
+
+#textarea1:focus {
+  border: none;
+  outline: none;
+}
+
+#textarea1:active {
+  border: none;
+  outline: none;
+}
+
+textarea {
+  width: 80%;
+  margin-bottom: 10px;
+  background-color: #b2ababeb;
+
+}
+
+.box-parrafo{
+  margin-left: 200px;
+  font-size: 24px;
+}
+
+.botones{
+  margin-left: 150px;
+  margin-top: 10px;
+}
+
+.btn-encriptar{
+  width: 300px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: rgb(71, 100, 153);
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.btn-desencriptar{
+  width: 300px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: rgb(71, 100, 153);
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.box-derecho{
+  width: 40%;
+  height: 700px;
+  margin: 10px 80px;
+  border-radius: 50px;
+  padding: 15px;
+  box-shadow: 0 0 10px #ccc;
+  float: right;
+}
+
+#textarea2 { 
+  width: 95%;
+  border: none;
+}
+
+#textarea2:focus {
+  border: none;
+  outline: none;
+}
+
+#textarea2:active {
+  border: none;
+  outline: none;
+}
+
+.ubica-img{
+  margin-top: 30px;
+  margin-left: 200px;
+}
+
+.btn-copiar{
+  width: 360px;
+  height: 60px;
+  margin-left: 200px;
+  margin-top: 50px;
+  border-radius: 30px;
+  background-color: rgb(71, 100, 153);
+  color: white;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.mensaje{
+  padding: 10px 10px;
+  font-size: xx-large;
+}
+
+footer{
+  text-align: center;
+  color: #898989;
+}
+
